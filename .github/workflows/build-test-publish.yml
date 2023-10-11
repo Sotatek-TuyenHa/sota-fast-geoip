@@ -69,9 +69,9 @@ jobs:
       - name: Build typescript files
         run: npm run build
       - name: Download csv databases
-        run: python downloadDatabases.py
         env:
           MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+        run: python downloadDatabases.py
       - name: Build data structures
         run: |
           python processGeoIpCsv.py
