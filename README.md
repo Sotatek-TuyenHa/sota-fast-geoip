@@ -1,4 +1,4 @@
-# fast-geoip
+# sota-fast-geoip
 > A faster & low-memory replacement for geoip-lite, a node library that maps IPs to geographical information
 
 ## Summary
@@ -14,7 +14,7 @@ Wrapping it up, `geoip-lite` has huge overhead costs but sub-millisecond queries
 
 And, without further addo, here's a code snippet of library usage (note that this library uses promises instead of synchronous functions, this is the only difference between this library and `geoip-lite`)
 ```js
-const geoip = require('fast-geoip');
+const geoip = require('sota-fast-geoip');
 
 const ip = "207.97.227.239";
 const geo = await geoip.lookup(ip);
