@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sotatek-TuyenHa/fast-geoip"
+    "url": "git+https://github.com/Sotatek-TuyenHa/sota-fast-geoip"
   },
   "author": "corollari",
   "license": "MIT",
