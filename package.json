@@ -1,6 +1,6 @@
 {
   "name": "sota-fast-geoip",
-  "version": "1.0.90",
+  "version": "1.0.91",
   "description": "A faster & low-memory replacement for geoip-lite, a node library that maps IPs to geographical information",
   "directories": {
     "test": "tests"
